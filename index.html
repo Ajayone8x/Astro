@@ -3,7 +3,7 @@
 <head>  
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>Astro</title>     
+  <title>Prime By Allrounder</title>     
   <script src="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/shaka-player.ui.min.js" crossorigin="anonymous"></script>  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shaka-player/4.7.11/controls.min.css" crossorigin="anonymous">  
   <style>  
@@ -64,11 +64,11 @@
           'quality', 'fullscreen'  
         ],  
         volumeBarColors: {  
-          base: 'rgba(255, 255, 255, 0.3)',  
+          base: 'rgba(255, 192, 203, 0.3)',  
           level: 'rgb(255, 105, 180)'  
         },  
         seekBarColors: {  
-          base: 'rgba(255, 255, 255, 0.3)',  
+          base: 'rgba(255, 255, 0, 0.3)',  
           buffered: 'rgba(255, 255, 0, 0.6)',  
           played: 'rgb(255, 255, 0)'  
         }  
@@ -81,8 +81,8 @@
         }  
       };  
   
-      
-      let streamUrl = "https://allinonereborn.online/mpd/mpd_proxy1.php/2504/default_primary.mpd";  
+      // 🔥 Direct MPD URL (no JSON fetch)
+      let streamUrl = "https://astro-cricket-proxy-1-zvoh.onrender.com/https://linearjitp-playback.astro.com.my/dash-wv/linear/2504/default_primary.mpd";  
   
       player.configure({  
         drm: drmConfig,  
